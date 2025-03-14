@@ -5,7 +5,7 @@ import { BsSun, BsMoon } from "react-icons/bs";
 import { useUser } from "@clerk/clerk-react";
 import Nav from "./Nav";
 
-const API_URL = "http://localhost:5000/api/trash";
+const API_URL = "https://trash-backend.onrender.com/api/trash";
 
 export default function Add() {
   const navigate = useNavigate();

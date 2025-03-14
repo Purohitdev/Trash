@@ -5,7 +5,7 @@ import { BsSun, BsMoon } from "react-icons/bs";
 import { MdDeleteSweep } from "react-icons/md";
 import Nav from "./Nav";
 
-const API_URL = "http://localhost:5000/api/trash";
+const API_URL = "https://trash-backend.onrender.com/api/trash";
 
 interface TrashItem {
   _id: string;
