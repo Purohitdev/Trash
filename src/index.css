@@ -17,5 +17,12 @@ audio {
 
     box-sizing: border-box;
     font-family: "Rubik", sans-serif;
+    scroll-behavior: smooth;
+    overscroll-behavior: none;
 
+}
+
+
+::-webkit-scrollbar{
+  display: none;
 }

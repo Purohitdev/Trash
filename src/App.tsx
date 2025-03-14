@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-d
 import OuterFull from "./Comp/Auth/Auth";
 import Dashboard from "./Comp/Inner/Dash";
 import ProtectedRoute from "./Comp/Auth/Protect";
+import Add from "./Comp/Inner/Add";
 
 export default function App() {
   return (
@@ -10,12 +11,20 @@ export default function App() {
         {/* Public Page */}
         <Route path="/" element={<OuterFull />} />
 
-        {/* Protected Page - Requires Login */}
+        {/* Protected Pages - Require Login */}
         <Route
           path="/dashboard"
           element={
             <ProtectedRoute>
               <Dashboard />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/add"
+          element={
+            <ProtectedRoute>
+              <Add />
             </ProtectedRoute>
           }
         />
