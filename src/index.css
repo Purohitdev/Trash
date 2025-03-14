@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import "tailwindcss";
+
+audio {
+    filter: invert(9%) sepia(6%) saturate(100%) hue-rotate(0deg); 
+    border-radius: 10px; 
+    background-color: #fff;
+    margin-top: 20px;
+  }
+
+
+
+
+
+
+*{
+
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+
+}
