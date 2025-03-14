@@ -40,6 +40,7 @@ export default function Dashboard() {
   }, [user]);
 
   const fetchItems = async () => {
+    
     if (!user?.id) return;
 
     try {
