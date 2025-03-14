@@ -135,7 +135,7 @@ export default function Add() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (!blogText && !image && !voiceMail && !pdf) {
+    if (!blogText.trim() && !image && !voiceMail && !pdf) {
       setError("At least one of Blog Text, Image, Voice Mail, or PDF is required.");
       return;
     }
