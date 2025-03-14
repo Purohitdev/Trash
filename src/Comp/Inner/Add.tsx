@@ -36,10 +36,13 @@ export default function Add() {
     try {
       const response = await fetch(`${API_URL}/upload`, {
         method: 'POST',
-        body: formData
+        body: formData,
       });
       
-      if (!response.ok) throw new Error('Upload failed');
+      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.message || 'Upload failed');
+      }
       
       const data = await response.json();
       return data.url;
