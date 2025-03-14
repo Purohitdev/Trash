@@ -93,11 +93,11 @@ export default function Dashboard() {
         {/* Animated Heading */}
         <motion.div
           initial={{ scale: 0.8, opacity: 0.1 }}
-          animate={{ scale: 2.3, opacity: 0.15 }}
+          animate={{ scale: 2, opacity: 0.15 }}
           transition={{ duration: 1.5, ease: "easeOut" }}
           className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[12vw] font-extrabold bg-gradient-to-r from-[#7b2ff7] to-[#4c51bf] text-transparent bg-clip-text tracking-wide"
         >
-          DOCS.
+          TRASH.
         </motion.div>
 
         {/* Blog List */}
