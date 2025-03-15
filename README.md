@@ -16,7 +16,12 @@
 
 ## 📸 Screenshots
 
+<img width="1438" alt="Screenshot 2025-03-15 at 12 15 55 PM" src="https://github.com/user-attachments/assets/277c6d92-7614-4b58-b576-b49ac7532c44" />
+<img width="1440" alt="Screenshot 2025-03-15 at 12 16 30 PM" src="https://github.com/user-attachments/assets/ee590d32-129c-4eab-a322-a809272c3832" />
+<img width="1439" alt="Screenshot 2025-03-15 at 12 16 22 PM" src="https://github.com/user-attachments/assets/03b620c6-8e51-4578-bbea-bd30b6910cf4" />
 <img width="1440" alt="Screenshot 2025-03-15 at 12 16 13 PM" src="https://github.com/user-attachments/assets/037b0ac2-bcf3-40c5-9d82-aadd4e7f5cc7" />
+
+
 
 
 
