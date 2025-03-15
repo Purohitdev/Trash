@@ -80,7 +80,7 @@ export default function Dashboard() {
 
   return (
     <SignedIn>
-      <div className={`${darkMode ? "bg-gradient-to-b from-[#0d0d0d] to-[#1e1f43] text-gray-300" : "bg-gradient-to-b from-[#f5f7fa] to-[#cbcef4] text-gray-800"} relative px-6 py-4 h-screen flex flex-col`}>
+      <div className={`${darkMode ? "bg-gradient-to-b from-[#0d0d0d] to-[#1e1f43] text-gray-300" : "bg-gradient-to-b from-[#f5f7fa] to-[#cbcef4] text-gray-800"} relative px-6 py-4 min-h-screen max-h-max flex flex-col`}>
         <Nav />
 
         <button
